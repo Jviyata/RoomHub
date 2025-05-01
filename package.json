@@ -4,6 +4,7 @@
     "vite": "^4.4.0"
   },
   "scripts": {
+    "dev": "vite",
     "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "build": "vite build"
