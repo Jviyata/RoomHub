@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { useAppContext } from '../context/AppContext';
 import Navbar from ' ../components/Navbar';
-import Footer from '../components/Footer';  
+import Footer from '../components/Footer';
 
 const Dashboard = () => {
   const [isLocked, setIsLocked] = useState(true);
