@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../context/AppContext';
-import Navbar from ' ../components/Navbar';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Dashboard = () => {
