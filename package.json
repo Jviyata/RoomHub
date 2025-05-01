@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^4.4.0"  
+  },
+  "scripts": {
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
+    "build": "vite build"  
+  },
+  "homepage": "https://Jviyata.github.io/RoomHub"
+}
